@@ -133,7 +133,7 @@ namespace IngameScript
 
                     //autopilot settings
                     rc.ClearWaypoints();
-                    rc.AddWaypoint(coordinate, "CAPTXAN'S SCRIPT COORDINATE");
+                    rc.AddWaypoint(coordinate, "AUTO DYNAMIC BRAKING SCRIPT COORDINATE");
                     rc.SetAutoPilotEnabled(true);
                     rc.SetCollisionAvoidance(false);
                     rc.SetDockingMode(false); //CHANGE??? or dont?
