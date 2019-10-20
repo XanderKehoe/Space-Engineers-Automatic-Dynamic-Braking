@@ -68,7 +68,8 @@ namespace IngameScript
 
         public Program()
         {
-            rc = GridTerminalSystem.GetBlockWithName(nameOfRC) as IMyRemoteControl; rc.SpeedLimit = maxSpeed;
+            rc = GridTerminalSystem.GetBlockWithName(nameOfRC) as IMyRemoteControl; 
+            rc.SpeedLimit = maxSpeed;
             cam = GridTerminalSystem.GetBlockWithName(nameOfCamera) as IMyCameraBlock;
             cam.EnableRaycast = true;
 
